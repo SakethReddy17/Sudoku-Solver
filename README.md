@@ -3,6 +3,7 @@ Overview
 Sudoku is one of the most popular puzzle of all time.The goal of Sudoku is to fill 9x9 grid such that each row,each column and 3x3 grid contains all of the digits between 1 to 9. In this project we aim to create a real time Sudoku solver which recognise the elements of Sudoku puzzle and providing a digital solution using Computer vision.
 
 Steps
+
 Grab the Sudoko Grid from the Webcam Image
 Extract and Detect the Digits
 Solve the puzzel and Print the Solution
@@ -23,7 +24,7 @@ Use cv2.morphologyEx and Invert the image
 
 
 Get Individual Cells of the grid and Predict the Digit
-Model used for prediction has been trained on subset of Chars4K Dataset which contains digits only (0-9). Model can be viewed here
+Model used for prediction has been trained on subset of Chars74K Dataset which contains digits only (0-9). Weights upgradation of model can be viewed in OCR.h5 file.
 
 While predicting the digits, blank cells would be predicted as 0. Blank cells can be identified by calculating sum of all the pixels (sum would be large)
 
