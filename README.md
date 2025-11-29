@@ -6,7 +6,7 @@ Steps
 
 Grab the Sudoko Grid from the Webcam Image
 Extract and Detect the Digits
-Solve the puzzel and Print the Solution
+Solve the puzzle and Print the Solution
 1. Grab the Sudoko Grid from the Webcam Image
 Extracting the Contour with biggest area
 Convert image to Gray scale (cv2.cvtColor)
