@@ -1,4 +1,5 @@
 Overview
+
 Sudoku is one of the most popular puzzle of all time.The goal of Sudoku is to fill 9x9 grid such that each row,each column and 3x3 grid contains all of the digits between 1 to 9. In this project we aim to create a real time Sudoku solver which recognise the elements of Sudoku puzzle and providing a digital solution using Computer vision.
 
 Steps
@@ -30,7 +31,8 @@ While predicting the digits, blank cells would be predicted as 0. Blank cells ca
 Solution and Final Result
 To solve Sudoku, backtracking has been used. Sudoku Backtracking is a recursive algorithm which goes through each cells and sequentially assigns numbers from 1 to 9 if the cell is empty.
 
-<img width="537" height="533" alt="image" src="https://github.com/user-attachments/assets/a1bc90dd-5257-496d-8816-eb047ec50d34" />
+<img width="540" height="537" alt="image" src="https://github.com/user-attachments/assets/8ed79745-f797-47a2-a8dc-e53b17e548c8" />
+
 
 To display the result use cv2.putText.
 
